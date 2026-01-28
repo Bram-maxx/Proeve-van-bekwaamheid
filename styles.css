@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+
+}
+
+/*style the form*/
+.container {
+    padding: 10px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+label {
+    margin: 10px 0;
+}
+
+
+input {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+form + div {
+    display: flex;
+    align-items: flex-start;
+}
